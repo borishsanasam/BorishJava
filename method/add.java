@@ -1,6 +1,6 @@
-package command;
+package method;
 
-public class Bois {
+public class add {
     /* 
      * This program demonstrates the addition of two integer variables.
      */
