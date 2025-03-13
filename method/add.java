@@ -1,17 +1,14 @@
 package method;
 
-public class add {
-    /* 
-     * This program demonstrates the addition of two integer variables.
-     */
-    public static void main(String[] args) {
-        int firstNumber = 10;  // First integer value
-        int secondNumber = 20; // Second integer value 
-        
-        // Adding the two numbers
-        int sum = firstNumber + secondNumber;
-        
-        // Printing the result
-        System.out.println("The sum of " + firstNumber + " and " + secondNumber + " is: " + sum);
+public class add{
+    public static int add(int a,int b){
+        int num c = a+b;
+        System.out.println(num c);
+        public static void main(String[] args) {
+        method obj=new method ();
+        obj add(12,13);
     }
 }
+
+        
+    }
