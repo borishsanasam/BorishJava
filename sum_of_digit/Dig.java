@@ -11,16 +11,10 @@ public class Dig {
             System.out.println("number.");
         } else {
             int sum = 0;
-            
-            
             for (int k = i; k <= j; k++) {
                 sum += k; 
-            }
-            
-           
+            } 
             System.out.println("The total sum " + i + " to " + j + " is: " + sum);
         }
-        
-        scanner.close(); 
             }
 }

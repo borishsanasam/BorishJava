@@ -1,7 +1,7 @@
 public class Loop {
     public static void main(String args[]) {
         for (int i = 11; i < 20; i++) {
-            System.out.println(i); // Print the value of i in each iteration
+            System.out.println(i); 
         }
     }
 }

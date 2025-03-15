@@ -1,11 +1,14 @@
-package dynamic_cal;
+package dynamic_calculation;
 
 import java.util.Scanner;
 
-public class cal{
+public class simple {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-               
+         System.out.println("Choose any option");
+        System.out.println("option1:addition \n option2: substraction \n option3:multiplication \n option4 : division");
+        int choose = input.nextInt();
+       
         if(choose == 1){
             System.out.println("input two number");
             int num1 = input.nextInt();
